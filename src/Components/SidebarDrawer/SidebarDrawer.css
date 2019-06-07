@@ -1,0 +1,33 @@
+.sidebar-drawer{
+    height: 100vh;
+    overflow: auto;
+    background: #fff;
+    width: 450px;
+    position: fixed;
+    right: 0;
+    box-shadow: 0px 0px 1px 0px #ccc;
+    top: 0;
+    z-index: 999;
+    right: -50%;
+    transition: all 0.5s ease;
+    padding: 30px 20px;
+}
+
+.sidebar-drawer.open{
+    right: 0;
+    transition: all 0.5s ease;
+}
+
+.sidebar-drawer .drawer-body{
+    margin: 40px 0 20px 0;
+}
+
+.dark-overlay{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 99;
+    background: rgba(0,0,0,.5);
+}
